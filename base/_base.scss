@@ -1,0 +1,16 @@
+//  --------------------------------------------------------------------------------
+//  Contains very basic styles
+//  --------------------------------------------------------------------------------
+
+/**
+ * Basic styles for links
+ */
+a {
+    color: $brand-color-primary;
+    text-decoration: none;
+
+    @include on-event {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}

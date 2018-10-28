@@ -1,0 +1,21 @@
+//  --------------------------------------------------------------------------------
+//  Contains all application-wide Sass mixins
+//  --------------------------------------------------------------------------------
+
+/// Event Wrapper
+/// @param {Bool} $self [false]  - Whether or not to include current selector 
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:focus {
+            @content;
+        }
+    } @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
