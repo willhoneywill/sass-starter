@@ -1,0 +1,24 @@
+{
+  "name": "jro-sass-starter",
+  "version": "1.0.1",
+  "description": "Sass boilerplate using 7-1 architecture pattern",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obice/sass-starter.git"
+  },
+  "keywords": [
+    "\"sass",
+    "boilerplate\"",
+    "\"sass",
+    "starter\""
+  ],
+  "author": "jestoni obice (http://webmons.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obice/sass-starter/issues"
+  },
+  "homepage": "https://github.com/obice/sass-starter#readme"
+}
