@@ -9,7 +9,7 @@ a {
     color: $brand-color-primary;
     text-decoration: none;
 
-    @include on-event {
+    @include hover-focus-active {
         color: $text-color;
         text-decoration: underline;
     }
